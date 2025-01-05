@@ -178,3 +178,33 @@ figcaption > p {
   font-style: italic;
   color: #ccc;
 }
+
+
+/* custom additions by me */
+/* Default link style: white color, no underline */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hover effect: blue color with underline */
+a:hover {
+  color: cyan;
+  text-decoration: underline;
+}
+
+.title {
+  display: inline; 
+  margin-left: 20px; 
+  font-size: 1.2em;
+}
+
+.date {
+  font-size: 1.2em;
+}
+
+.posts {
+  list-style-type: none; /* Removes bullets */
+  padding: 0;            /* Removes default padding */
+  margin: 0;             /* Removes default margin */
+}
